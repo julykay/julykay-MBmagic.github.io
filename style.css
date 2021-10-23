@@ -1,0 +1,39 @@
+h1 {
+	color: black;
+	font-size: 45px;
+	text-align: center;
+}
+p {
+	margin-top: 50px;
+	color: black;
+	font-size: 25px;
+	max-width: 75%;
+}
+p2 {
+	margin-top: 50px;
+	color: grey;
+	font-size: 25px;
+	max-width: 75%;
+}
+img {
+	display: block;
+}
+div {
+	width: 70%;
+	margin: auto;
+	background-color: #fff9e1;
+	box-shadow: 0 0 1000px 1px rgba(255 232 123);
+}
+body{
+	font-size: 20px;
+	font-family: "Swap",classic;
+	background-color: #fffde6;
+
+}
+h3{
+	font-size: 50px;
+	text-align: center;
+	font-family: "Swap", classic;
+	color: black;
+
+}
