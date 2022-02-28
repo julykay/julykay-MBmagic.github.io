@@ -37,8 +37,8 @@ html, body, main{
 	height: 100%;
 	padding: 0;	
 	margin: 0;
-	margin-bottom: 50px;
-
+	margin-bottom: 150px;
+	
 	background-color: #eee;
 	background-size: cover;
 	background-position: center;
@@ -95,7 +95,7 @@ html, body, main{
 	box-shadow: 0px 0px 100px 1px #795AC8;
 }
 .vibor{
-	margin-top: 50px;
+	margin-top: 150px;
 	margin-left: 8%;
 	margin-right: 8%;
 }
