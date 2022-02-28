@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap" rel="stylesheet">
+	<title>Document</title>
+</head>
+<body>
+	<div class="row">
+  <div class="col-75">
+    <div class="container">
+      <form action="/action_page.php">
+
+        <div class="row">
+          <div class="col-50">
+            <h3>Контактные Данные</h3>
+            <label for="fname"><i class="fa fa-user"></i>Имя</label>
+            <input type="text" id="fname" name="firstname" placeholder="Иванов Иван Иванович">
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" placeholder="...">
+            <label for="adr"><i class="fa fa-address-card-o"></i>Адрес</label>
+            <input type="text" id="adr" name="address" placeholder="Ленина 32">
+            <label for="city"><i class="fa fa-institution"></i>Город</label>
+            <input type="text" id="city" name="city" placeholder="Минеральные Воды">
+
+            <div class="row">
+              <div class="col-50">
+                <label for="state">Государство</label>
+                <input type="text" id="state" name="state" placeholder="Россия">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-50">
+            <h3>Платеж</h3>
+            
+            <label for="cname">Имя на карте</label>
+            <input type="text" id="cname" name="cardname" placeholder="Ivanov Ivan Ivanovich">
+            <label for="ccnum">Номер кредитной карты</label>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+            <label for="expmonth">Годен месяц</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder="Январь">
+
+            <div class="row">
+              <div class="col-50">
+                <label for="expyear">Годен год</label>
+                <input type="text" id="expyear" name="expyear" placeholder="2023">
+              </div>
+              <div class="col-50">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="***">
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <label>
+          <input type="checkbox" checked="checked" name="sameadr">Согласие на обработку контактных данных
+        </label>
+        <a href=""><input type="submit" value="Продолжить оформление заказа" class="btn"></a>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
