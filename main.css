@@ -4,13 +4,13 @@
 	box-sizing: border-box;
 	background-color: #f2f2f2;
 }
-wi{
+.wi{
 	font-size: 24px;
 	font-weight: bold;
 	text-align:center;
 	font-family: 'Montserrat', sans-serif;
 }
-wo{
+.wo{
 	margin-top: 100px;
 	margin-bottom:100px;
 	display: block;
@@ -20,7 +20,7 @@ wo{
 	border-radius:35px;
 	height:45%;
 }
-wo:hover{
+.wo:hover{
 	transform: scale(1.1);
 	box-shadow: 0px 0px 100px 1px #795AC8;
 }
